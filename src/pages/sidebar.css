@@ -1,0 +1,32 @@
+.border-r-ultra-thin {
+    border-right-width: 0.5px; /* Définir une bordure droite très fine */
+    border-right-color: #5c5c5c; /* Changer la couleur de la bordure droite en gris */
+  }
+  
+  @media screen and (max-width: 1200px) {
+    ul li a span {
+      display: none;
+    }
+  }
+  
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+  }
+  
+  @media screen and (max-width: 1200px) {
+    span {
+      display: none;
+    }
+  }
+
+.plus {
+  display: none;
+}
+  
+@media screen and (max-width: 1200px) {
+  .plus {
+    display: flex;
+  }
+}

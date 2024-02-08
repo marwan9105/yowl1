@@ -1,0 +1,8 @@
+.border-l-ultra-thin {
+    border-left-width: 0.5px; /* Définir une bordure droite très fine */
+    border-left-color: #5c5c5c; /* Changer la couleur de la bordure droite en gris */
+  }
+  
+.sidebar-right {
+    
+}

@@ -1,0 +1,21 @@
+/* HeaderMobile.css */
+.header-mobile {
+    display: none; /* Par défaut, le header est caché */
+  }
+  
+  @media screen and (max-width: 670px) {
+    .header-mobile {
+      display: flex;
+      justify-content: flex-end; 
+      padding: 20px;
+    }
+  
+    .icons-container {
+      display: flex;
+      gap: 40px;
+      font-size: 35px;
+      color: white;
+      padding: 20px;
+    }
+  }
+  
